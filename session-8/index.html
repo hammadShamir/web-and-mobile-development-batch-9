@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+
+<body>
+    <h1>Today we are learning HTML FORMS</h1>
+    <form action="./submitform.html" method="get">
+        <!-- Name Input -->
+        <div>
+            <div>
+                <label for="username">Name</label>
+            </div>
+            <input type="text" placeholder="Enter Your Name" id="username">
+        </div>
+        <br>
+        <!-- Number Input -->
+        <div>
+            <div>
+                <label for="phoneNumber">Phone Number</label>
+            </div>
+            <input type="number" placeholder="Enter Your Number" id="phoneNumber">
+        </div>
+        <br>
+        <!-- Email Input -->
+        <div>
+            <div>
+                <label for="email">Email</label>
+            </div>
+            <input type="email" placeholder="Enter your email" id="email" value="@gmail.com">
+        </div>
+        <br>
+        <!-- Password Input -->
+        <div>
+            <div>
+                <label for="password">Password</label>
+            </div>
+            <input type="password" placeholder="Enter Your password" id="password">
+        </div>
+        <br>
+        <!-- Gender  -->
+        <div>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" value="other" name="gender">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <p>Hobbies:</p>
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="sports" name="hobby" value="sports">
+            <label for="sports">Sports</label>
+        </div>
+        <br>
+
+        <!-- Country dropdown -->
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="pakistan">Pakistan</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="india">India</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Submit Button -->
+        <button type="submit">
+            Submit
+        </button>
+        <button type="reset">
+            Reset
+        </button>
+    </form>
+
+</body>
+
+</html>
