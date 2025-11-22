@@ -1,0 +1,45 @@
+/* h1 {
+    color: green;
+    background: antiquewhite;
+
+}
+
+p {
+    color: orange;
+} */
+
+
+.heading {
+    /* color: green; */
+    /* background: antiquewhite; */
+}
+
+#unique-heading{
+
+    background-color: brown;
+    padding: 20px;
+    color: aliceblue;
+    /* font-size: 100px; */
+    /* font-weight: 900; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.box{
+    background-color:aquamarine;
+    width: 200px;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    padding: 10px 20px 30px 40px;
+    margin: 10px;
+    /* border-width: 1px;
+    border-color: blue;
+    border-style: dashed; */
+    border: 1px solid red;
+}
+
+.box:hover{
+    background-color: green;
+}
